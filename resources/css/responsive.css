@@ -1,0 +1,645 @@
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+html{
+	font-size: 55%;
+}
+
+.contact-header-left {
+	float: none;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.contact-header-right {
+	float: none;
+}
+
+
+.right-menu {
+	font-size: 12px;
+	text-align: center;
+}
+
+.right-menu {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+.right-menu ul li {
+	margin-right: 1rem;
+}
+.cassan-header-area{
+	height: 140vh;
+}
+
+.about-background{
+	height: 45vh;
+}
+
+.pages-title{
+	width: 100%;
+}
+
+/*
+
+.main-menu {
+	width: 100%;
+	height: auto;
+	background: #222E3E;
+	margin: 0 auto;
+	padding: 15px 50px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	-webkit-transform: translate(-50%);
+	transform: translate(-50%);
+	text-align: center;
+	z-index: 999;
+	display: ;
+}
+
+*/
+
+
+.nav-top {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cart {
+	float: right;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+}
+.logo img {
+	width: 70%;
+	height: auto;
+}
+
+
+#menu-bars span {
+	color: #222;
+}
+
+.menu-icon{
+	display: block;
+	color: #fff;
+}
+.menu-icon span {
+	display: block;
+	color: #fff;
+	font-size: 3rem;
+	border: 2px solid #222;
+	padding: 0px 5px;
+	margin-left: 14px;
+	margin-top: -19px;
+	padding-bottom: -4px;
+}
+
+
+/*
+
+.menu-icon{
+	display: block;
+	color: #fff;
+	margin-right: 7%;
+}
+
+.menu-icon span {
+	font-size: 20px;
+	color: #222;
+	border: 1px solid #222;
+	padding: 2px 5px;
+	border-radius: 5px;
+	margin-left: 70%;
+}
+
+
+/*
+
+
+.menu-icon .fa-times {
+	display: ;
+	color: #222;
+	padding: 1px 2px;
+	border-radius: 4px;
+	border: 1px solid #222;
+	cursor: pointer;
+}
+
+
+
+.menu-icon {
+	font-size: 2.5rem;
+	color: #222;
+	margin-left: 10%;
+	background:;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-icon .fa-bars {
+	color: #222;
+	padding: 1px 2px;
+	border-radius: 4px;
+	border: 1px solid #222;
+	cursor: pointer;
+}
+
+*/
+
+.main-menu {
+	width: 100%;
+	height: auto;
+	background: #222e3e;
+	margin: 60px auto;
+	padding: 0;
+	position: absolute;
+	top: 5%;
+	text-align: center;
+	z-index: 99;
+	color: black;
+	display: none;
+}
+
+.main-menu ul li {
+	display: block;
+	padding: 8px;
+}
+.mobile-menu {
+	display: none;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	background: #fff;
+	padding: 1rem 0;
+	z-index: 99;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	text-transform: uppercase;
+	transform: translateX(-50%);
+}
+.mobile-menu * {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+	color: #222;
+}
+.mobile-menu ul li a {
+	display: block;
+	padding: .5rem;
+	font-weight: 600;
+}
+
+.mobile-menu hr:not([size]) {
+	height: 1px;
+	width: 100%;
+	opacity: 1;
+	color: #ddd;
+}
+
+.mobile-menu ul ul {
+	display: ;
+	background: #ddd;
+	color: ;
+	display: none;
+}
+
+.mobile-menu ul li:hover {
+	background: #A8A8A8;
+	color: #FFA800;
+}
+.mobile-menu ul li a:hover {
+	background: #FFA800;
+	color: #fff;
+}
+.cart-icon span:first-child {
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	background: #222E3E;
+	border-radius: 50%;
+	padding: 12px 8px;
+}
+
+
+
+
+
+.menu-icon, .close-btn{
+    display: block;
+    color: #fff;
+}
+
+.header-background{
+	top: 30%;
+}
+
+.header-background-left {
+	margin-top: 100%;
+}
+.header-background-right h1 {
+	font-size: 3.5rem;
+	font-weight: 900;
+	line-height: 3.3rem;
+}
+
+.header-background-right h2{
+	font-size: 2.5rem;
+}
+
+
+
+.cust-services{
+	width: 100%;
+}
+.cust-services-item{
+	margin-bottom: 1rem;
+}
+
+.arrivals-product-btn {
+	text-align: center;
+	margin-bottom: 2rem;
+	display: block;
+}
+.arrivals-product-btn button {
+	text-transform: capitalize;
+	font-family: 'Montserrat', sans-serif;
+	background: #fff;
+	color: #444444;
+	font-size: 14px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 1rem;
+}
+
+.arrivals-right, 
+.arrivals-left{
+	width: 100%;
+}
+.arrivals-right-details,
+.arrivals-left-details{
+	left: 4%;
+}
+.arrivals-left{
+	margin-top: 15rem;
+}
+
+.arrivals-right{
+	margin-bottom: 5rem;
+}
+
+
+.arrivals-product-single-item {
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.arrivals-product-items .gray-btn{
+	width: 80%;
+}
+.best-porduct-description {
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+.best-porduct-description p {
+	font-size: 1.5rem;
+	width: 100%;
+}
+
+.arrivals-heading h2{
+	font-size: 3rem;
+}
+
+.top-ratings-heading {
+	text-align: center;
+}
+
+
+
+
+
+.reviews-item.active{
+	display: block;
+}
+
+.reviews-item-img {
+	width: 20%;
+	height: auto;
+	margin-right: 6rem;
+	margin: 0 auto;
+	margin-top: 4rem;
+}
+.reviews-item-title {
+	text-align: left;
+	color: #fff;
+	font-family: 'Arimo', sans-serif;
+	width: 80%;
+	font-style: italic;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 2rem;
+}
+
+
+.news-btn {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 5rem;
+}
+
+
+
+.casssan-subscribe {
+	background-color: rgb(34, 46, 62);
+	background-image: url('resources/img/Subscribe.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	border-color: ;
+	width: 98%;
+	margin: 0 auto;
+	padding: 10px;
+	padding-top: 4rem;
+	position: absolute;
+	bottom: -5%;
+	left: 50%;
+	z-index: 999;
+	transform: translate();
+	display: none;
+}
+
+
+.pagination li {
+	background: #f2f2f2;
+	padding: 0.55rem 1.5rem;
+	margin: 0 0.5rem;
+}
+
+
+.brand-img {
+	position: relative;
+	width: 40%;
+	margin: 1rem auto;
+}
+
+.footer-social-icon {
+	margin: 4rem 0;
+}
+
+
+
+/*====ABOUT===*/
+
+.others-menu-icon{
+	display: block;
+}
+
+.others-menu-icon {
+	position: absolute;
+	top: 15%;
+	right: 5%;
+	z-index: 8989;
+	font-size: 2.5rem;
+	color: #fff;
+}
+.others-menu-icon .fa-times{
+	display: none;
+}
+ 
+.about-background .cart {
+	margin-right: 40px;
+}
+
+.about-background .cart-count p:first-child {
+	color: #fff;
+}
+
+.about-background .mobile-menu {
+	display: none;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	background: #fff;
+	padding: 1rem 0;
+	z-index: 99;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	text-transform: uppercase;
+	transform: translateX(-50%);
+}
+
+.cart {
+	margin-right: 40px;
+}
+
+.team-single-person{
+	margin-bottom: 5rem;
+}
+
+
+
+
+
+
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 330px) {
+
+
+.others-menu-icon {
+	position: absolute;
+	top: 13%;
+	right: 5%;
+	z-index: 8989;
+	font-size: 2.5rem;
+	color: #fff;
+}
+
+
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+
+.header-background {
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 30rem;
+}
+
+
+
+.header-background-left {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 30rem;
+}
+
+.about-background .main-menu{
+	width: 80%;
+}
+
+.about-background{
+	height: 45vh;
+}
+
+.pages-title{
+	width: 100%;
+}
+
+.main-menu{
+	width: 80%;
+}
+
+.cust-services-item{
+	margin: 1rem 0;
+}
+.casssan-subscribe{
+	height: 10%;
+}
+
+.footer-categories {
+	margin: 10px 0;
+}
+
+.news-single-item {
+	width: 70%;
+	margin: 20px auto;
+}
+
+.news-items {
+	margin-top: -10%;
+}
+
+.news-btn{
+	width: 30%;
+}
+
+
+
+.arrivals-product-btn button{
+	padding: 1rem 2rem;
+}
+
+.mini-product-right {
+	position: relative;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 3rem;
+}
+.mini-product-right-overlay p{
+	margin-top: 10rem;
+}
+
+
+.reviews-item.active{
+	display: block;
+}
+
+.reviews-item-img {
+	width: 15%;
+	height: auto;
+	margin-right: 6rem;
+	margin: 0 auto;
+	margin-top: 4rem;
+}
+.reviews-item-title {
+	text-align: left;
+	color: #fff;
+	font-family: 'Arimo', sans-serif;
+	width: 80%;
+	font-style: italic;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 2rem;
+}
+
+.subscribe-title {
+	width: 100%;
+	margin-left: -40%;
+	margin: 0 -5rem;
+}
+
+.subscribe-title p {
+	width: 100%;
+}
+
+.subscribe-input {
+	width: 100%;
+	margin: 0 -5rem;
+}
+
+.subscribe-input input{
+	font-size: 1.4rem;
+}
+
+
+
+
+
+.brand-img {
+	position: relative;
+	width: 40%;
+	margin: 1rem auto;
+}
+
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+
+
+
+
+
+
+
+
+
+
+} 
